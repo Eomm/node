@@ -1868,7 +1868,7 @@ Creation of a [`zlib`][] object failed due to incorrect configuration.
 ### HPE_HEADER_OVERFLOW
 <!-- YAML
 changes:
-  - version: REPLACEME
+  - version: v11.4.0
     pr-url: https://github.com/nodejs/node/commit/186035243fad247e3955f
     description: Max header size in `http_parser` was set to 8KB.
 -->
@@ -2049,7 +2049,7 @@ binary itself.
 ### ERR_UNKNOWN_STDIN_TYPE
 <!-- YAML
 added: v8.0.0
-removed: REPLACEME
+removed: v11.4.0
 -->
 
 An attempt was made to launch a Node.js process with an unknown `stdin` file
@@ -2060,7 +2060,7 @@ although it is possible for user code to trigger it.
 ### ERR_UNKNOWN_STREAM_TYPE
 <!-- YAML
 added: v8.0.0
-removed: REPLACEME
+removed: v11.4.0
 -->
 
 An attempt was made to launch a Node.js process with an unknown `stdout` or
